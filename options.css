@@ -1,0 +1,65 @@
+body {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  p {
+    max-width: 560px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 2;
+    color: #222;
+  }
+  
+  .button {
+    background: #76B3FA;
+    border-radius: 100px;
+    padding: 20px 60px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.45em;
+    margin: 0 15px;
+  }
+
+  .button:active {
+    -webkit-animation: active 1200ms ease 1 alternate;
+    animation: active 1200ms ease 1 alternate; 
+    background: #5F9BE0;
+  }
+  .gray { background: #D2D2D2; }
+  .gray:active { background: #b9b9b9; }
+
+  .button1 {
+    background: #76B3FA;
+    border-radius: 100px;
+    padding: 20px 60px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.45em;
+    margin: 0 15px;
+  }
+
+  .button:active {
+    -webkit-animation: active 1200ms ease 1 alternate;
+    animation: active 1200ms ease 1 alternate; 
+    background: #5F9BE0;
+  }
+  .gray1 { background: #D2D2D2; }
+  .gray1:active { background: #b9b9b9; }
+ 
+  .topic.h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: 200;
+    color: #380000;
+}
+  .p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+
+  }
